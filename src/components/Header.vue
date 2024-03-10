@@ -8,7 +8,7 @@ defineProps({
 
 <template>
   <header class="flex justify-between border-b border-slate 200 px-10 py-8">
-    <router-link to="/rainbow-shop/"
+    <router-link to="/"
       ><div class="flex items-center gap-4">
         <img src="/logo.png" alt="Logo" class="w-10" />
         <div>
