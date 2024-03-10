@@ -11,7 +11,7 @@ import Favorites from './pages/Favorites.vue'
 const app = createApp(App)
 
 const routes = [
-  { path: '/', name: 'Home', component: Home },
+  { path: '/rainbow-shop/', name: 'Home', component: Home },
   { path: '/favorites', name: 'Favorites', component: Favorites }
 ]
 
