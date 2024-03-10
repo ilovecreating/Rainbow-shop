@@ -17,7 +17,7 @@ defineProps({
     <img
       v-if="onClickFavorite"
       class="absolute top-8 left-8"
-      :src="!isFavorite ? './like-1.svg' : './like-2.svg'"
+      :src="!isFavorite ? '/rainbow-shop/like-1.svg' : '/rainbow-shop/like-2.svg'"
       alt="like-2"
       @click="onClickFavorite"
     />
@@ -31,7 +31,7 @@ defineProps({
       <img
         v-if="onClickAdd"
         @click="onClickAdd"
-        :src="!isAdded ? './plus.svg' : './checked.svg'"
+        :src="!isAdded ? '/rainbow-shop/plus.svg' : '/rainbow-shop/checked.svg'"
         alt="Plus"
       />
     </div>
