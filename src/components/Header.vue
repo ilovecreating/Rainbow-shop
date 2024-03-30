@@ -7,7 +7,7 @@ defineProps({
 </script>
 
 <template>
-  <header class="flex justify-between border-b border-slate 200 px-10 py-8">
+  <header class="ph600:flex ph600:justify-between border-b border-slate 200 px-10 py-8">
     <router-link to="/rainbow-shop/"
       ><div class="flex items-center gap-4">
         <img src="/logo.png" alt="Logo" class="w-10" />
@@ -17,7 +17,7 @@ defineProps({
         </div>
       </div></router-link
     >
-    <ul class="flex items-center gap-10">
+    <ul class="grid grid-cols-1 gap-4 ph420:flex ph420:items-center ph420:gap-10">
       <li
         @click="() => emit('openDrawer')"
         class="flex items-center gap-3 text-gray-500 cursor-pointer hover:text-black"

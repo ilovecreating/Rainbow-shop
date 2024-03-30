@@ -119,10 +119,10 @@ watch(filters, fetchItems)
 </script>
 
 <template>
-  <div class="flex justify-between items-center">
+  <div class="ph600:flex ph600:justify-between ph600:items-center">
     <h2 class="text-3xl font-bold mb-8">Все арбалеты</h2>
-    <div class="flex gap-4">
-      <select @change="onChangeSelect" class="py-2 px-3 border rounded-md outline-none">
+    <div class="lg:flex lg:flex lg:gap-4">
+      <select @change="onChangeSelect" class="py-2 px-3 border rounded-md outline-none ph300:mb-5">
         <option value="name">По названию</option>
         <option value="price">По цене(дешёвые)</option>
         <option value="-price">По цене(дорогие)</option>
